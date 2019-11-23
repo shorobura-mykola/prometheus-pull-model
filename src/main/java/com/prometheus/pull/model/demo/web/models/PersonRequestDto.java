@@ -1,0 +1,15 @@
+package com.prometheus.pull.model.demo.web.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class PersonRequestDto {
+    private int id;
+    private String firstName;
+    private String lastName;
+    private String email;
+}
